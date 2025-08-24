@@ -6,7 +6,7 @@ const Header = ({ scrollToSection }) => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>Your Name</h1>
+          <h1>Arun Sisarran</h1>
         </div>
         <nav className="nav">
           <ul className="nav-list">

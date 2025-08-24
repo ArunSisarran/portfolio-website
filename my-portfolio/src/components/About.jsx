@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-content">
           <div className="about-text">
-            <h2 className="section-title">About Me</h2>
+            <h2 className="section-title">Hi I'm Arun Sisarran</h2>
             <div className="about-description">
               <p>
                 I've always been the type of person who gets excited about understanding how things work—whether it's taking apart old electronics as a kid or staying up way too late trying to figure out why my code isn't running the way I expected. What started as curiosity about computers has evolved into a genuine passion for machine learning and AI. I'm currently studying Computer Science at CUNY Hunter College, but honestly, some of my best learning happens outside the classroom when I'm working on random projects or going down rabbit holes about neural networks on YouTube. There's something addictive about that moment when you finally get a model to work, or when you realize you can solve a problem you never thought was possible.
@@ -18,9 +18,11 @@ const About = () => {
             </div>
           </div>
           <div className="about-image">
-            <div className="image-placeholder">
-              <span>Photo</span>
-            </div>
+            <img 
+              src="/images/IMG_9955.jpeg"
+              alt="Your Name" 
+              className="profile-photo"
+            />
           </div>
         </div>
       </div>
